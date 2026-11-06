@@ -164,9 +164,11 @@ td.name .ico{float:left;margin:2px 10px 0 0}
 
 .backup{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .backup textarea{flex:1 1 320px;min-height:44px;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:12px var(--f-mono);resize:vertical}
-footer{color:var(--muted);font-size:12.5px;text-align:center;display:flex;flex-direction:column;gap:6px}
-footer nav{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-footer a{color:var(--metal);text-decoration:none}footer a:hover{text-decoration:underline}
+footer{color:var(--muted);font-size:12.5px;text-align:center}
+.links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.links a{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--fg);text-decoration:none;font:600 13.5px var(--f-body)}
+.links a:hover{border-color:var(--metal);color:var(--metal)}
+.links svg{width:16px;height:16px}
 </style>
 </head>
 <body>
@@ -243,15 +245,15 @@ footer a{color:var(--metal);text-decoration:none}footer a:hover{text-decoration:
     </div>
   </section>
 
-  <footer>
-    <nav>
-      <a href="https://github.com/byjerkz/AION2-Market-Ledger" target="_blank" rel="noopener" data-i="fSrc"></a>
-      <a href="https://github.com/byjerkz/AION2-Market-Ledger/issues" target="_blank" rel="noopener" data-i="fIssue"></a>
-      <a href="https://byjerkz.github.io/AION2-Genus-Insight/" target="_blank" rel="noopener">Genus Insight</a>
-      <a href="https://github.com/byjerkz" target="_blank" rel="noopener">byjerkz</a>
-    </nav>
-    <span data-i="fNote"></span>
-  </footer>
+  <nav class="links" aria-label="Liens">
+    <a href="https://github.com/byjerkz/AION2-Market-Ledger" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span data-i="fSrc"></span></a>
+    <a href="https://github.com/byjerkz/AION2-Market-Ledger/issues/new" target="_blank" rel="noopener">🐞 <span data-i="fIssue"></span></a>
+    <a href="https://github.com/byjerkz/AION2-Market-Ledger/releases" target="_blank" rel="noopener">🏷️ <span data-i="fVer"></span></a>
+    <a href="https://byjerkz.github.io/AION2-Genus-Insight/" target="_blank" rel="noopener">🐾 <span>Genus Insight</span></a>
+    <a href="https://github.com/byjerkz" target="_blank" rel="noopener">👤 <span data-i="fBy"></span></a>
+  </nav>
+
+  <footer data-i="fNote"></footer>
 </div>
 <div id="tip" role="tooltip"></div>
 <div id="hist" role="dialog"></div>
@@ -278,8 +280,8 @@ const TXT={
   bkH:['Sauvegarde et partage','Backup and sharing'],
   bkLede:['Tes données restent dans ce navigateur. Copie ton code pour changer de PC ou le garder en sécurité.','Your data stays in this browser. Copy your code to move to another PC or keep it safe.'],
   bkCopy:['Copier ma sauvegarde','Copy my backup'], bkImport:['Importer ce code','Import this code'], bkReset:['Tout effacer','Erase everything'],
-  fSrc:['Code source','Source code'], fIssue:['Signaler un problème','Report an issue'],
-  fNote:['Outil de fan, non affilié à NCSOFT. Les noms anglais des objets peuvent différer légèrement du client officiel.','Fan-made tool, not affiliated with NCSOFT. English item names may differ slightly from the official client.'],
+  fSrc:['Code source','Source code'], fIssue:['Signaler un problème','Report an issue'], fVer:['v1.0.1 · Nouveautés','v1.0.1 · What\'s new'], fBy:['Créé par byjerkz','Made by byjerkz'],
+  fNote:['Prix saisis par toi, propres à ton serveur. Taxe comptée : 10 % à la vente + 2 % de frais d\'enregistrement. Icônes dessinées pour cet outil. Tes données sont gardées dans ce navigateur uniquement. Outil de fan, non affilié à NCSOFT.','Prices are entered by you and specific to your server. Fees counted: 10% sales tax + 2% listing fee. Icons drawn for this tool. Your data stays in this browser only. English item names may differ slightly from the official client. Fan-made tool, not affiliated with NCSOFT.'],
   tabs:{track:['Suivi HDV','Market watch'],sell:['À vendre','To sell'],reserve:['Réserve banque','Bank reserve'],watch:['Surveillance','Watchlist'],craft:['Crafts & PNJ','Crafts & NPC'],all:['Tout','All']},
   th:[['','Objet','Qté','Réserve','Prix marché','Réf.','Tendance','Valeur nette','Signal',''],['','Item','Qty','Reserve','Market price','Ref.','Trend','Net value','Signal','']]
 };

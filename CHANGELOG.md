@@ -1,5 +1,11 @@
 # 📜 Changelog
 
+## 🏷️ v1.0.1 · 2026-11-06
+
+### 🔧 Modifications · Changed
+- 🔗 Bas de page en boutons, comme Genus Insight : code source, signaler un problème, nouveautés, Genus Insight, créateur · Footer links as buttons, like Genus Insight
+- 📝 Note de bas de page plus complète · More complete footer note
+
 ## 🏷️ v1.0.0 · 2026-11-06
 
 ### ✨ Nouveautés · Added
