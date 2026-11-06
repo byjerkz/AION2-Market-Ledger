@@ -1,0 +1,10 @@
+# Fichiers système / System files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Google Drive
+*.gdoc
+*.gsheet
+.tmp.drivedownload/
+.tmp.driveupload/
