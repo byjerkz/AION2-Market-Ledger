@@ -26,10 +26,12 @@ A free tool to track your **stock, Market prices, crafts and listings** in Aion 
 
 | | |
 |---|---|
-| 🔎 **Add by search** | Type a name, click **+ Add**. 65 items included, plus your own custom items. |
-| 📦 **Stock & bank reserve** | Quantities, a reserve that is never suggested for sale, net value after fees. |
+| 🔎 **Add by search** | Type a name, click **+ Add**. 237 items included, plus your own custom items. |
+| 🗂️ **In-game categories** | Consumables, Appearances, Miscellaneous and their subcategories, plus a rarity filter. |
+| 📦 **Stock & value** | Quantity owned, number of listings, price paid and net value after fees. |
+| ↕️ **Sorting** | Click any column title: grade, price, listings, date… |
 | 📈 **Price history** | Every price is dated. Click a trend to view or delete a price. |
-| 🚦 **Signals** | Sell, wait, buy back or watch, based on your reference price. |
+| 🚦 **Signals** | Sell, wait, rising, falling or stable, based on your last prices. A warning stops listings far from the market price. |
 | ⚒️ **Crafting calculator** | Real cost (using your own crafted ingredients when cheaper), net profit and a **Craft** button that updates your stock. |
 | 🏪 **Market listings** | Your 10 slots with time left. **Sold**, **Cancel**, **Clear all**. |
 | 🛒 **Purchases & kinah** | Log Market or NPC purchases. Your balance and today's result update by themselves. |
@@ -59,10 +61,12 @@ Outil gratuit pour suivre ton **stock, les prix de l'HDV, tes crafts et tes anno
 
 | | |
 |---|---|
-| 🔎 **Ajout par recherche** | Tape un nom, clique **+ Ajouter**. 65 objets inclus, et tes propres objets perso. |
-| 📦 **Stock et réserve banque** | Quantités, une réserve jamais proposée à la vente, valeur nette après taxes. |
+| 🔎 **Ajout par recherche** | Tape un nom, clique **+ Ajouter**. 237 objets inclus, et tes propres objets perso. |
+| 🗂️ **Catégories du jeu** | Consommables, Apparences, Divers et leurs sous-catégories, plus un filtre par rareté. |
+| 📦 **Stock et valeur** | Quantité possédée, nombre d'annonces, prix payé et valeur nette après taxes. |
+| ↕️ **Tri** | Clique sur un titre de colonne : grade, prix, annonces, date… |
 | 📈 **Historique des prix** | Chaque prix est daté. Clique sur une tendance pour voir ou supprimer un prix. |
-| 🚦 **Signaux** | Vendre, attendre, racheter ou surveiller, selon ton prix de référence. |
+| 🚦 **Signaux** | Vendre, attendre, en hausse, en baisse ou stable, selon tes derniers prix. Une alerte bloque les annonces très loin du prix du marché. |
 | ⚒️ **Calculateur de crafts** | Coût réel (avec tes ingrédients fabriqués si c'est moins cher), gain net et bouton **Fabriquer** qui met ton stock à jour. |
 | 🏪 **File de l'HDV** | Tes 10 places avec le temps restant. **Vendu**, **Retirer**, **Tout vider**. |
 | 🛒 **Achats et kinah** | Achats HDV ou PNJ. Ton solde et ton bilan du jour se mettent à jour tout seuls. |

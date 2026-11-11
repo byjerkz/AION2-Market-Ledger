@@ -1,5 +1,24 @@
 # 📜 Changelog
 
+## 🏷️ v1.1.0 · 2026-11-11
+
+### ✨ Nouveautés · Added
+- 🗂️ Catégories de l'HDV du jeu : Consommables, Apparences, Divers, avec leurs sous-catégories · In-game Market categories: Consumables, Appearances, Miscellaneous, with subcategories
+- 📚 Catalogue passé de 65 à 237 objets : potions, plats, pierres de mana, pierres sacrées, ailes, œuvres d'art du Panthéon, apparences · Catalog grown from 65 to 237 items: potions, food, manastones, holy stones, wings, Pantheon artworks, appearances
+- 💎 Filtre par rareté, dont la nouvelle rareté « Spécial » · Rarity filter, including the new “Special” rarity
+- ↕️ Tri en cliquant sur les titres de colonnes (grade, prix, annonces…) · Sort by clicking column titles (grade, price, listings…)
+- 📋 Colonne « Annonces » (nombre d'annonces à l'HDV) · “Listings” column (number of Market listings)
+- 🕒 Colonne « Relevé » : date du dernier prix, en orange après 3 jours · “Updated” column: last price date, orange after 3 days
+- 💰 Colonne « Payé » : prix d'achat moyen et gain net si tu revends · “Paid” column: average purchase price and net gain if resold
+- ⚠️ Alerte quand tu mets en vente très loin du prix du marché · Warning when listing far from the market price
+
+### 🔧 Modifications · Changed
+- 🚦 Signaux simplifiés : vendre, attendre, en hausse, en baisse, stable · Simpler signals: sell, wait, rising, falling, stable
+- 🏷️ « Qté » devient « Possédé » · “Qty” becomes “Owned”
+
+### 🗑️ Retiré · Removed
+- 🏦 Réserve banque et prix de référence (les données existantes sont conservées mais plus affichées) · Bank reserve and reference price (existing data is kept but no longer shown)
+
 ## 🏷️ v1.0.1 · 2026-11-06
 
 ### 🔧 Modifications · Changed
