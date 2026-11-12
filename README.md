@@ -20,13 +20,13 @@
 
 ## 🇬🇧 English
 
-A free tool to track your **stock, Market prices, crafts and listings** in Aion 2. Everything starts blank: you add the items you care about and enter your own server's prices.
+A free tool to track your **stock, Market prices, crafts and listings** in Aion 2. Every item is already listed by category: you just enter your own server's prices and quantities.
 
 ### ✨ Features
 
 | | |
 |---|---|
-| 🔎 **Add by search** | Type a name, click **+ Add**. 237 items included, plus your own custom items. |
+| 📚 **237 items ready** | Every item is already listed in its category. Search to find one, or add your own custom items. |
 | 🗂️ **In-game categories** | Consumables, Appearances, Miscellaneous and their subcategories, plus a rarity filter. |
 | 📦 **Stock & value** | Quantity owned, number of listings, price paid and net value after fees. |
 | ↕️ **Sorting** | Click any column title: grade, price, listings, date… |
@@ -42,7 +42,7 @@ A free tool to track your **stock, Market prices, crafts and listings** in Aion 
 ### 🚀 How to use it
 
 1. Open **[the tool](https://byjerkz.github.io/AION2-Market-Ledger/)** and pick **EN** at the top right.
-2. Type an item in **Search or add an item…** and click **+ Add**.
+2. Pick a category or type a name in **Search an item…**.
 3. Enter quantity and Market price, then confirm with **✓** or **Enter**.
 4. Use **Craft**, **List**, **Sold** and **Buy**: stock and kinah follow.
 5. Now and then, **Backup and sharing → Copy my backup**.
@@ -55,13 +55,13 @@ A free tool to track your **stock, Market prices, crafts and listings** in Aion 
 
 ## 🇫🇷 Français
 
-Outil gratuit pour suivre ton **stock, les prix de l'HDV, tes crafts et tes annonces** dans Aion 2. Tout démarre vierge : tu ajoutes les objets qui t'intéressent et tu saisis les prix de ton serveur.
+Outil gratuit pour suivre ton **stock, les prix de l'HDV, tes crafts et tes annonces** dans Aion 2. Tous les objets sont déjà listés par catégorie : tu saisis simplement les prix et quantités de ton serveur.
 
 ### ✨ Fonctionnalités
 
 | | |
 |---|---|
-| 🔎 **Ajout par recherche** | Tape un nom, clique **+ Ajouter**. 237 objets inclus, et tes propres objets perso. |
+| 📚 **237 objets prêts** | Tous les objets sont déjà listés dans leur catégorie. Cherche-en un, ou ajoute tes propres objets perso. |
 | 🗂️ **Catégories du jeu** | Consommables, Apparences, Divers et leurs sous-catégories, plus un filtre par rareté. |
 | 📦 **Stock et valeur** | Quantité possédée, nombre d'annonces, prix payé et valeur nette après taxes. |
 | ↕️ **Tri** | Clique sur un titre de colonne : grade, prix, annonces, date… |
@@ -77,7 +77,7 @@ Outil gratuit pour suivre ton **stock, les prix de l'HDV, tes crafts et tes anno
 ### 🚀 Utilisation
 
 1. Ouvre **[l'outil](https://byjerkz.github.io/AION2-Market-Ledger/)** et choisis **FR** en haut à droite.
-2. Tape un objet dans **Chercher ou ajouter un objet…** et clique **+ Ajouter**.
+2. Choisis une catégorie ou tape un nom dans **Chercher un objet…**.
 3. Saisis la quantité et le prix de l'HDV, puis valide avec **✓** ou **Entrée**.
 4. Utilise **Fabriquer**, **Mettre en vente**, **Vendu** et **Acheter** : le stock et les kinah suivent.
 5. De temps en temps, **Sauvegarde et partage → Copier ma sauvegarde**.

@@ -288,8 +288,8 @@ const TXT={
   tKin:['Kinah en poche','Kinah on hand'], tStock:['Valeur nette du stock','Net stock value'], afterTax:['après 12 %','after 12%'],
   tHdv:['En vente à l\'HDV','Listed on the Market'], tDay:['Bilan du jour','Today\'s balance'], tCraft:['Meilleur craft','Best craft'],
   stockH:['Stock, prix et signaux','Stock, prices and signals'],
-  stockLede:['Ajoute tes objets avec la recherche. Modifie une case puis valide avec ✓ ou Entrée (Échap annule). Clique un titre de colonne pour trier, glisse ≡ pour ton ordre perso, clique une tendance pour l\'historique.','Add items with the search box. Edit a cell, then confirm with ✓ or Enter (Esc cancels). Click a column title to sort, drag ≡ for your own order, click a trend for its history.'],
-  search:['Chercher ou ajouter un objet…','Search or add an item…'],
+  stockLede:['Tous les objets sont listés par catégorie : remplis le prix et la quantité de ceux qui t\'intéressent. Modifie une case puis valide avec ✓ ou Entrée (Échap annule). Clique un titre de colonne pour trier, glisse ≡ pour ton ordre perso, clique une tendance pour l\'historique.','Every item is listed by category: fill in the price and quantity of the ones you care about. Edit a cell, then confirm with ✓ or Enter (Esc cancels). Click a column title to sort, drag ≡ for your own order, click a trend for its history.'],
+  search:['Chercher un objet…','Search an item…'],
   craftH:['Calculateur de crafts','Crafting calculator'],
   craftLede:['Coût réel (ingrédients fabriqués par toi si c\'est moins cher), gain net, et bouton « Fabriquer » qui met ton stock à jour.','Real cost (self-crafted ingredients when cheaper), net profit, and a “Craft” button that updates your stock.'],
   hdvH:['File de l\'HDV','Market listings'],
@@ -299,7 +299,7 @@ const TXT={
   bkH:['Sauvegarde et partage','Backup and sharing'],
   bkLede:['Tes données restent dans ce navigateur. Copie ton code pour changer de PC ou le garder en sécurité.','Your data stays in this browser. Copy your code to move to another PC or keep it safe.'],
   bkCopy:['Copier ma sauvegarde','Copy my backup'], bkImport:['Importer ce code','Import this code'], bkReset:['Tout effacer','Erase everything'],
-  fSrc:['Code source','Source code'], fIssue:['Signaler un problème','Report an issue'], fVer:['v1.1.0 · Nouveautés','v1.1.0 · What\'s new'], fBy:['Créé par byjerkz','Made by byjerkz'],
+  fSrc:['Code source','Source code'], fIssue:['Signaler un problème','Report an issue'], fVer:['v1.1.1 · Nouveautés','v1.1.1 · What\'s new'], fBy:['Créé par byjerkz','Made by byjerkz'],
   fNote:['Prix saisis par toi, propres à ton serveur. Taxe comptée : 10 % à la vente + 2 % de frais d\'enregistrement. Icônes dessinées pour cet outil. Tes données sont gardées dans ce navigateur uniquement. Outil de fan, non affilié à NCSOFT.','Prices are entered by you and specific to your server. Fees counted: 10% sales tax + 2% listing fee. Icons drawn for this tool. Your data stays in this browser only. English item names may differ slightly from the official client. Fan-made tool, not affiliated with NCSOFT.'],
   fCat:['Catégorie','Category'], fSub:['Sous-cat.','Subcat.'], fRar:['Rareté','Rarity'], fView:['Afficher','Show'],
   th:[[['rar','Grade'],['name','Objet'],['qty','Possédé'],['price','Prix marché'],['ann','Annonces'],['date','Relevé'],['paid','Payé'],['trend','Tendance'],['val','Valeur nette'],['sig','Signal'],[null,'']],
@@ -553,7 +553,8 @@ const CATALOG=[
   ["anneau-gartua","Anneau de Gartua","Gartua's Ring",'u']
 ];
 const SUBMAP={"ailes-d-aullaeu-ancien-scellees":"D.transmu","ailes-d-esprit-de-la-foret-scellees":"D.transmu","ailes-de-kromede-scellees":"D.transmu","ailes-de-l-amour-resplendissant":"C.plumes","ailes-des-fragments-noirs-scellees":"D.transmu","ailes-des-vagues-bleues-scellees":"D.transmu","ailes-des-vagues-d-abime-scellees":"D.transmu","ailes-du-papillon-bleu":"C.plumes","ailes-du-voile-des-tenebres-scellees":"D.transmu","ailes-od":"C.plumes","ailes-reve-fee":"C.plumes","anneau-gartua":"X.autre","aria":"D.collecte","boeuf-wellington-du-dragon-noir":"C.food","bois-asvata-eclatant":"D.collecte","bois-asvata-pur":"D.collecte","bois-asvata":"D.collecte","bois-gp":"D.collecte","bois-yggdrasil-eclatant":"D.collecte","bois-yggdrasil-gp":"D.collecte","bois-yggdrasil-pur":"D.collecte","bois-yggdrasil":"D.collecte","bonbon-a-la-pomme-casque":"A.armure","bonbon-de-transformation-shugo-du-festival":"C.bonbon","bonbon-de-transformation-shugo":"C.bonbon","calendula":"D.collecte","cerisier-lunaire-boucles-d-oreilles":"A.deco","cerisier-lunaire-collier":"A.deco","chop-steak-du-dragon-noir":"C.food","couronne-de-ginseng-casque":"A.armure","cristal-de-pv":"C.potions","cristal-magie":"D.collecte","cuir-brut":"D.collecte","cuir-resistant":"D.fab","decoration-diamant":"D.fab","decoration-rubis":"D.fab","decoration-saphir":"D.fab","diamant-brut":"D.collecte","diamant-eclatant":"D.collecte","diamant-gp":"D.collecte","diamant-pur":"D.collecte","doux-murmure-boucles-d-oreilles":"A.deco","doux-murmure-collier":"A.deco","durcisseur-inf":"D.fab","durcisseur-inter":"D.fab","durcisseur-sup":"D.fab","ecaille-dure":"D.fab","ecaille-epaisse":"D.fab","ecaille-solide":"D.fab","eclat-de-pouvoir-d-abime":"C.divers","eclat-de-pouvoir-superieur":"C.divers","eclat-de-pouvoir":"C.divers","ego-rage":"D.fab","elixir-de-pv-superieur":"C.potions","elixir-du-vent-superieur":"C.potions","elixir-du-vent":"C.potions","emote-kuru-kuru":"C.divers","encre-avancee":"D.fab","encre-luxueuse":"D.fab","essence-balaur":"D.fab","feuille-verte-boucles-d-oreilles":"A.deco","feuille-verte-collier":"A.deco","friture-ohkra-maitre":"C.food","fruit-frais":"D.collecte","goutte-de-lumiere-boucles-d-oreilles":"A.deco","goutte-de-lumiere-collier":"A.deco","graine-de-detection":"C.divers","inina":"D.collecte","insigne-de-gardien-casque":"A.armure","intention-rage":"D.fab","legion-de-promesse-bottes":"A.armure","legion-de-promesse-cape":"A.armure","legion-de-promesse-casque":"A.armure","legion-de-promesse-cuirasse":"A.armure","legion-de-promesse-epaulettes":"A.armure","legion-de-promesse-gants":"A.armure","legion-de-promesse-greves":"A.armure","lingot-orichalque":"D.fab","masque-d-aeromancien-casque":"A.armure","masque-d-esprit-d-eau-casque":"A.armure","masque-de-saendukal-casque":"A.armure","mela":"D.collecte","mijote-de-pujery-de-maitre":"C.food","minerai-d-orichalque-eclatant":"D.collecte","minerai-gp":"D.collecte","minerai-orichalque":"D.collecte","morfa":"D.collecte","murmure-de-la-foret-boucles-d-oreilles":"A.deco","murmure-de-la-foret-collier":"A.deco","murmure-des-fleurs-printanieres-boucles-d-oreilles":"A.deco","murmure-des-fleurs-printanieres-collier":"A.deco","od-brut":"D.collecte","od-eclatant":"D.collecte","od-gp":"D.collecte","od-pur":"D.collecte","oeuvre-aed-le-guerrier-noir":"C.pantheon","oeuvre-agro-le-roi-des-esprits":"C.pantheon","oeuvre-ansas-sacre":"C.pantheon","oeuvre-aulla-l-erudit":"C.pantheon","oeuvre-aullamu-le-guerrier-de-la-foret":"C.pantheon","oeuvre-axios-l-archon-des-ames-egarees":"C.pantheon","oeuvre-barthien":"C.pantheon","oeuvre-centurion-demiros":"C.pantheon","oeuvre-danar-le-fondu":"C.pantheon","oeuvre-dartan-la-silencieuse":"C.pantheon","oeuvre-draupnir-rage":"C.pantheon","oeuvre-draupnir":"C.pantheon","oeuvre-garsan-le-predateur":"C.pantheon","oeuvre-garshim-le-ritualiste":"C.pantheon","oeuvre-gartua-de-l-eternite":"C.pantheon","oeuvre-gartua-de-l-immortalite":"C.pantheon","oeuvre-grotte-de-la-corne-feroce-de-la-rage":"C.pantheon","oeuvre-grotte-de-la-corne-feroce":"C.pantheon","oeuvre-guruta-l-arme-de-troupe-drakan":"C.pantheon","oeuvre-hardirun-l-intoxique":"C.pantheon","oeuvre-haut-commandant":"C.pantheon","oeuvre-ile-celeste-de-vakron":"C.pantheon","oeuvre-k-nash-la-sentinelle":"C.pantheon","oeuvre-kaira-la-veilleuse":"C.pantheon","oeuvre-karuka":"C.pantheon","oeuvre-kashapa":"C.pantheon","oeuvre-kasia-du-reve-illusoire":"C.pantheon","oeuvre-kelpina-la-vague-bleue":"C.pantheon","oeuvre-kernon-de-l-ouest":"C.pantheon","oeuvre-korin-en-floraison":"C.pantheon","oeuvre-krao-de-la-rage":"C.pantheon","oeuvre-krao":"C.pantheon","oeuvre-kusan-le-berserker":"C.pantheon","oeuvre-kutar-le-putrefie":"C.pantheon","oeuvre-lannar-le-guerrier-de-sang":"C.pantheon","oeuvre-lawa-aux-tentacules-noires":"C.pantheon","oeuvre-layla-l-apostate":"C.pantheon","oeuvre-linx-le-chef-des-operations-speciales":"C.pantheon","oeuvre-ludra-d-abime":"C.pantheon","oeuvre-moshav-le-superviseur-de-la-recolte":"C.pantheon","oeuvre-nahma-le-seigneur-gardien":"C.pantheon","oeuvre-neikel-de-l-est":"C.pantheon","oeuvre-newbold-le-profanateur":"C.pantheon","oeuvre-nutah-le-chef-superviseur":"C.pantheon","oeuvre-pnyn-aux-crocs-sanglants":"C.pantheon","oeuvre-rajit-le-fidele":"C.pantheon","oeuvre-resana-le-conseiller":"C.pantheon","oeuvre-saursus-enragee":"C.pantheon","oeuvre-setram-le-chercheur":"C.pantheon","oeuvre-shujakan-le-veteran":"C.pantheon","oeuvre-shylak-l-acere":"C.pantheon","oeuvre-taulo-le-traqueur":"C.pantheon","oeuvre-teegant-le-garde-du-corps":"C.pantheon","oeuvre-temple-divin-du-feu-de-la-rage":"C.pantheon","oeuvre-temple-divin-du-feu":"C.pantheon","oeuvre-trid":"C.pantheon","oeuvre-urugugu-rage":"C.pantheon","oeuvre-urugugu":"C.pantheon","oeuvre-vakron-rage":"C.pantheon","oeuvre-vargor-le-berserker":"C.pantheon","oeuvre-vishwada-le-tenebreux":"C.pantheon","ohkra":"D.collecte","papier-asvata":"D.fab","parchemin-courage-lie":"D.fab","parchemin-courage-sup":"C.parch","parchemin-protection-lie":"D.fab","parchemin-protection-sup":"C.parch","parchemin-res-alt":"C.parch","parchemin-sprint-lie":"D.fab","parchemin-sprint-sup":"C.parch","pates-aux-fruits-de-mer-du-dragon-noir":"C.food","pates-conide":"C.food","pates-de-conide-de-maitre":"C.food","piece-bois-asvata":"D.fab","pierre-d-ame-d-abime-intermediaire":"C.mana","pierre-d-ame-d-abime-superieure":"C.mana","pierre-de-faille-de-l-abysse-inferieur":"C.ticket","pierre-de-mana-d-abime-intermediaire":"C.mana","pierre-de-mana-d-abime-superieure":"C.mana","pierre-de-mana-inferieure":"C.mana","pierre-de-mana-intermediaire":"C.mana","pierre-de-mana-superieure":"C.mana","pierre-de-percee-unique":"D.special","pierre-exceptionnelle":"D.fab","pierre-expert":"D.fab","pierre-maitre":"D.fab","pierre-raffinage":"D.fab","pierre-sacree-bribe-de-kaisinel":"C.sacree","pierre-sacree-chaines-de-heladrir":"C.sacree","pierre-sacree-finesse-de-notun":"C.sacree","pierre-sacree-machination-de-nua":"C.sacree","pierre-sacree-rugissement-d-aulak":"C.sacree","pierre-sacree-tenacite-de-reda":"C.sacree","pierre-sacree-tragedie-de-perion":"C.sacree","poivre-altgard":"D.fab","potion-de-pm":"C.potions","potion-de-pv-superieure":"C.potions","potion-de-soin-superieure":"C.potions","poudre-diamant":"D.fab","poudre-esprit":"D.fab","poudre-rubis":"D.fab","poudre-saphir":"D.fab","raydam":"D.collecte","resolution-silencieuse-bottes":"A.armure","resolution-silencieuse-cape":"A.armure","resolution-silencieuse-casque":"A.armure","resolution-silencieuse-cuirasse":"A.armure","resolution-silencieuse-epaulettes":"A.armure","resolution-silencieuse-gants":"A.armure","resolution-silencieuse-greves":"A.armure","rubis-brut":"D.collecte","rubis-d-ombre-boucles-d-oreilles":"A.deco","rubis-d-ombre-collier":"A.deco","rubis-eclatant":"D.collecte","rubis-gp":"D.collecte","rubis-pur":"D.collecte","salade-fruits-maitre":"C.food","saphir-brut":"D.collecte","saphir-eclatant":"D.collecte","saphir-gp":"D.collecte","saphir-pur":"D.collecte","saute-curry-maitre":"C.food","solvant-orichalque":"D.fab","souffle-de-fleur-blanche-boucles-d-oreilles":"A.deco","souffle-de-fleur-blanche-collier":"A.deco","unite-d-exploration-restauree-bottes":"A.armure","unite-d-exploration-restauree-cape":"A.armure","unite-d-exploration-restauree-casque":"A.armure","unite-d-exploration-restauree-cuirasse":"A.armure","unite-d-exploration-restauree-epaulettes":"A.armure","unite-d-exploration-restauree-gants":"A.armure","unite-d-exploration-restauree-greves":"A.armure","vagabond-des-terres-sauvages-bottes":"A.armure","vagabond-des-terres-sauvages-casque":"A.armure","vagabond-des-terres-sauvages-cuirasse":"A.armure","vagabond-des-terres-sauvages-gants":"A.armure","vagabond-des-terres-sauvages-greves":"A.armure","viande-balaur":"D.collecte","viande-crue-fraiche":"D.collecte","volonte-rage":"D.fab","papier-yggdrasil":"D.fab","calendula-fraiche":"D.collecte"};
-const CAT={}; CATALOG.forEach(([id,fr,en,r,o],i)=>{CAT[id]={id,fr,en,rarity:r,pnj:o&&o.pnj,ord:i};});
+const CRANK={C:0,A:1,D:2,X:3};
+const CAT={}; CATALOG.forEach(([id,fr,en,r,o],i)=>{const sb=SUBMAP[id]||'X.autre';CAT[id]={id,fr,en,rarity:r,pnj:o&&o.pnj,ord:(CRANK[sb[0]]||0)*1e4+i};});
 const nm=o=>{if(!o)return '';const c=CAT[o.id||o];return c?(LANG==='en'?c.en:c.fr):(o.name||o.id||String(o));};
 const RECIPES=[
   {id:'parch-sprint',out:'parchemin-sprint-sup',inputs:[['parchemin-sprint-lie',1],['poudre-rubis',3],['papier-asvata',1],['encre-avancee',1]]},
@@ -606,6 +607,9 @@ function persist(){try{localStorage.setItem(KEY,JSON.stringify(S));saveOK=true;}
 const db=true;
 let items=S.items, slots=S.slots, wallet=S.wallet, journal=S.journal;
 function commit(){S.items=items;S.slots=slots;S.wallet=wallet;S.journal=journal;persist();renderAll();}
+const all=()=>{const m={};CATALOG.forEach(c=>{m[c[0]]=items[c[0]]||{id:c[0],qty:0,price:CAT[c[0]].pnj||null,history:[]};});Object.keys(items).forEach(id=>{m[id]=items[id];});return Object.values(m);};
+window.__ALL=all;
+const itemOf=id=>items[id]||(CAT[id]?{id,qty:0,price:CAT[id].pnj||null,history:[]}:null);
 function upd(id,patch){items[id]=Object.assign({},items[id]||{id},patch,{id});commit();}
 
 /* ---------- utilitaires ---------- */
@@ -717,15 +721,15 @@ function bySort(a,b){
   if(x==null||y==null) return (x==null)-(y==null)||byPos(a,b);
   return (typeof x==='string'?x.localeCompare(y,loc()):x-y)*sortDir||byPos(a,b);
 }
-function visible(){return Object.values(items).filter(it=>pass(it)).filter(it=>!query||nm(it).toLowerCase().includes(query)).sort(sortKey?bySort:byPos);}
+function visible(){return all().filter(it=>pass(it)).filter(it=>!query||nm(it).toLowerCase().includes(query)||(CAT[it.id]&&(CAT[it.id].fr+' '+CAT[it.id].en).toLowerCase().includes(query))).sort(sortKey?bySort:byPos);}
 function pill(id,l,n,on,extra){return '<button type="button" data-t="'+id+'" aria-pressed="'+on+'"'+(extra||'')+'>'+esc(l)+' · '+n+'</button>';}
 function renderTabs(){
-  const all=Object.values(items), en=LANG==='en'?2:1;
-  $('tabs').innerHTML=TABS.map(x=>{const n=all.filter(it=>pass(it,{tab:x[0],sub:'all'})).length;return x[0]==='X'&&!n&&tab!=='X'?'':pill(x[0],x[en],n,x[0]===tab);}).join('');
+  const AL=all(), en=LANG==='en'?2:1;
+  $('tabs').innerHTML=TABS.map(x=>{const n=AL.filter(it=>pass(it,{tab:x[0],sub:'all'})).length;return x[0]==='X'&&!n&&tab!=='X'?'':pill(x[0],x[en],n,x[0]===tab);}).join('');
   const sl=SUBS[tab]||[]; $('subrow').hidden=!sl.length;
-  $('subs').innerHTML=sl.length?[['all','Tout','All']].concat(sl).map(x=>{const key=x[0]==='all'?'all':tab+'.'+x[0],n=all.filter(it=>pass(it,{sub:key})).length;return pill(key,x[en],n,key===sub,n?'':' class="zero"');}).join(''):'';
-  $('rars').innerHTML=RARS.map(x=>{const n=all.filter(it=>pass(it,{rarF:x[0]})).length,on=x[0]===rarF;return pill(x[0],x[en],n,on,x[0]==='all'||on?'':' style="color:var(--r-'+x[0]+')"');}).join('');
-  $('views').innerHTML=VIEWS.map(x=>pill(x[0],x[en],all.filter(it=>pass(it,{view:x[0]})).length,x[0]===view)).join('');
+  $('subs').innerHTML=sl.length?[['all','Tout','All']].concat(sl).map(x=>{const key=x[0]==='all'?'all':tab+'.'+x[0],n=AL.filter(it=>pass(it,{sub:key})).length;return pill(key,x[en],n,key===sub,n?'':' class="zero"');}).join(''):'';
+  $('rars').innerHTML=RARS.map(x=>{const n=AL.filter(it=>pass(it,{rarF:x[0]})).length,on=x[0]===rarF;return pill(x[0],x[en],n,on,x[0]==='all'||on?'':' style="color:var(--r-'+x[0]+')"');}).join('');
+  $('views').innerHTML=VIEWS.map(x=>pill(x[0],x[en],AL.filter(it=>pass(it,{view:x[0]})).length,x[0]===view)).join('');
 }
 function renderHead(){
   const tips=TXT.thTip;
@@ -735,7 +739,7 @@ let rmArm=null;
 function renderRows(){
   if(drag) return;
   const list=visible();
-  if(!list.length){$('rows').innerHTML='<tr><td colspan="11"><div class="empty-state">'+(Object.keys(items).length?L('Aucun objet avec ces filtres.','No item matches these filters.'):L('Ta liste est vide. Tape le nom d\'un objet dans la recherche ci-dessus pour l\'ajouter.','Your list is empty. Type an item name in the search box above to add it.'))+'</div></td></tr>';return;}
+  if(!list.length){$('rows').innerHTML='<tr><td colspan="11"><div class="empty-state">'+(Object.keys(items).length?L('Aucun objet avec ces filtres.','No item matches these filters.'):L('Aucun objet.','No item.'))+'</div></td></tr>';return;}
   $('rows').innerHTML=list.map(it=>{
     const s=signal(it), val=isPnj(it)||it.price==null?null:(it.qty||0)*it.price*NET, lt=lastT(it), age=ageDays(it), gain=it.paid&&it.price!=null&&!isPnj(it)?it.price*NET-it.paid:null;
     return '<tr data-id="'+esc(it.id)+'">'+
@@ -749,11 +753,11 @@ function renderRows(){
       '<td class="hs" data-hist="'+esc(it.id)+'" title="'+L('Voir ou supprimer des prix','View or delete prices')+'">'+spark(it.history)+'</td>'+
       '<td class="num mono">'+(val==null?'—':short(val))+'</td>'+
       '<td><span class="sig '+s.c+'"><i></i>'+esc(s.t)+'</span></td>'+
-      '<td><button type="button" class="rm" data-rm title="'+L('Retirer de ma liste','Remove from my list')+'">✕</button></td></tr>';
+      '<td>'+(CAT[it.id]?(items[it.id]?'<button type="button" class="rm" data-rm title="'+L('Effacer mes données sur cet objet','Clear my data for this item')+'">↺</button>':''):'<button type="button" class="rm" data-rm title="'+L('Supprimer cet objet perso','Delete this custom item')+'">✕</button>')+'</td></tr>';
   }).join('');
 }
 function saveField(id,f,raw){
-  const it=items[id]; if(!it) return;
+  const it=itemOf(id); if(!it) return;
   const v=num(raw); if(v===it[f]) return;
   const patch={[f]:v};
   if(f==='price'&&v!=null){patch.history=(it.history||[]).slice(-59).concat([{t:nowStr(),p:v}]);if(!it.ref)patch.ref=v;}
@@ -763,12 +767,10 @@ function saveField(id,f,raw){
 /* ---------- recherche / ajout ---------- */
 function renderSugg(){
   const box=$('sugg'), q=query;
-  if(!q){box.style.display='none';return;}
-  const m=CATALOG.map(c=>CAT[c[0]]).filter(c=>!items[c.id]&&(c.fr.toLowerCase().includes(q)||c.en.toLowerCase().includes(q))).slice(0,12);
-  const custom=!CATALOG.some(c=>c[1].toLowerCase()===q||c[2].toLowerCase()===q)&&!Object.values(items).some(it=>nm(it).toLowerCase()===q);
-  box.innerHTML=(m.length?m.map(c=>'<button type="button" data-add="'+c.id+'">'+ico(c.id)+'<span class="k-'+c.rarity+'">'+esc(LANG==='en'?c.en:c.fr)+'</span><em>+ '+L('Ajouter','Add')+'</em></button>').join(''):'')+
-    (custom?'<button type="button" data-addc>'+ico('x')+'<span>« '+esc($('q').value.trim())+' »</span><em>+ '+L('Objet perso','Custom item')+'</em></button>':'')+
-    (!m.length&&!custom?'<p>'+L('Déjà dans ta liste.','Already in your list.')+'</p>':'');
+  if(!q||visible().length){box.style.display='none';return;}
+  const known=all().some(it=>nm(it).toLowerCase().includes(q)||(CAT[it.id]&&(CAT[it.id].fr+' '+CAT[it.id].en).toLowerCase().includes(q)));
+  box.innerHTML=known?'<p>'+L('Cet objet existe, mais pas avec les filtres choisis. Repasse sur « Tout ».','This item exists but not with the current filters. Switch back to “All”.')+'</p>':
+    '<button type="button" data-addc>'+ico('x')+'<span>« '+esc($('q').value.trim())+' »</span><em>+ '+L('Ajouter comme objet perso','Add as custom item')+'</em></button>';
   box.style.display='block';
 }
 function addItem(id,name){
@@ -776,12 +778,12 @@ function addItem(id,name){
   const c=CAT[id];
   items[id]={id,qty:0,price:c&&c.pnj?c.pnj:null,ref:null,history:[]};
   if(!c){items[id].name=name;items[id].rarity='g';}
-  S.order=Object.values(items).sort(byPos).map(x=>x.id);
+  S.order=all().sort(byPos).map(x=>x.id);
   $('q').value='';query='';commit();renderSugg();flash(L('Ajouté : ','Added: ')+nm(items[id]));
 }
 function removeItem(id){
   if(slots.some(s=>s.item===id)){flash(L('Retire d\'abord ses annonces de l\'HDV.','Cancel its listings first.'),true);return;}
-  const n=nm(items[id]); delete items[id]; S.order=S.order.filter(x=>x!==id); commit(); flash(L('Retiré de ta liste : ','Removed from your list: ')+n);
+  const n=nm(items[id]); delete items[id]; if(!CAT[id])S.order=S.order.filter(x=>x!==id); commit(); flash((CAT[id]?L('Données effacées : ','Data cleared: '):L('Objet supprimé : ','Item deleted: '))+n);
 }
 
 /* ---------- infos au survol ---------- */
@@ -862,7 +864,7 @@ function make(rid,box){
   for(const [id,need] of r.inputs){const it=items[id];if(!(CAT[id]&&CAT[id].pnj)&&((it&&it.qty)||0)<need*n){flash(L('Pas assez de ','Not enough ')+nm(id)+' : '+((it&&it.qty)||0)+' / '+need*n,true);return;}}
   for(const [id,need] of r.inputs){if(items[id])items[id]=Object.assign({},items[id],{qty:Math.max(0,(items[id].qty||0)-need*n)});}
   const made=(n-f)*(r.per||1);
-  if(!items[r.out]){items[r.out]={id:r.out,qty:0,price:null,ref:null,history:[]};S.order=Object.values(items).sort(byPos).map(x=>x.id);}
+  if(!items[r.out]){items[r.out]={id:r.out,qty:0,price:null,ref:null,history:[]};S.order=all().sort(byPos).map(x=>x.id);}
   items[r.out]=Object.assign({},items[r.out],{qty:(items[r.out].qty||0)+made});
   logOp('craft',r.out,made,0);commit();
   flash(made+' × '+nm(r.out)+L(' ajoutés',' added')+(f?' ('+f+L(' échec(s)',' fail(s)')+')':'')+'.');
@@ -901,7 +903,7 @@ function renderSlots(){
 }
 function renderBuy(){
   const cur=$('buyItem').value;
-  $('buyItem').innerHTML='<option value="">'+L('Objet acheté…','Item bought…')+'</option>'+Object.values(items).sort((a,b)=>nm(a).localeCompare(nm(b),loc())).map(it=>'<option value="'+esc(it.id)+'"'+(it.id===cur?' selected':'')+'>'+esc(nm(it))+'</option>').join('');
+  $('buyItem').innerHTML='<option value="">'+L('Objet acheté…','Item bought…')+'</option>'+all().filter(it=>!query||true).sort((a,b)=>nm(a).localeCompare(nm(b),loc())).map(it=>'<option value="'+esc(it.id)+'"'+(it.id===cur?' selected':'')+'>'+esc(nm(it))+'</option>').join('');
 }
 function renderOps(){
   const last=journal.slice(-6).reverse(), lab={vente:L('Vente','Sale'),achat:L('Achat','Purchase'),frais:L('Frais HDV','Listing fee'),craft:L('Fabrication','Craft')};
@@ -940,7 +942,7 @@ function slotAction(i,a){
   commit();
 }
 function buy(){
-  const id=$('buyItem').value, it=items[id];
+  const id=$('buyItem').value, it=itemOf(id);
   if(!it){flash(L('Choisis l\'objet acheté.','Choose the item bought.'),true);return;}
   const q=int($('buyQty').value), p=int($('buyPrice').value);
   if(q<1||!(p>0)){flash(L('Indique la quantité et le prix unitaire.','Enter quantity and unit price.'),true);return;}
@@ -1009,7 +1011,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&histId){histId=null
 $('rows').addEventListener('pointerdown',e=>{const h=e.target.closest('.grip');if(!h)return;if(sortKey){flash(L('Clique encore sur la colonne triée pour revenir à ton ordre, puis déplace la ligne.','Click the sorted column again to go back to your order, then move the row.'),true);return;}e.preventDefault();const tr=h.closest('tr');drag={tr};tr.classList.add('drag');try{h.setPointerCapture(e.pointerId);}catch(_){}});
 $('rows').addEventListener('pointermove',e=>{if(!drag)return;let before=null;for(const r of $('rows').children){if(r===drag.tr)continue;const b=r.getBoundingClientRect();if(e.clientY<b.top+b.height/2){before=r;break;}}if(before)$('rows').insertBefore(drag.tr,before);else $('rows').appendChild(drag.tr);});
 function drop(){const tr=drag.tr;drag=null;tr.classList.remove('drag');
-  const nv=[...$('rows').children].map(r=>r.dataset.id).filter(Boolean), all=Object.values(items).sort(byPos).map(x=>x.id);
+  const nv=[...$('rows').children].map(r=>r.dataset.id).filter(Boolean), all=window.__ALL().sort(byPos).map(x=>x.id);
   const idx=all.map((id,i)=>nv.includes(id)?i:-1).filter(i=>i>=0); idx.forEach((i,n)=>{all[i]=nv[n];});
   S.order=all; commit();}
 $('rows').addEventListener('pointerup',()=>{if(drag)drop();});

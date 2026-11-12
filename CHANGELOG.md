@@ -1,5 +1,12 @@
 # 📜 Changelog
 
+## 🏷️ v1.1.1 · 2026-11-12
+
+### 🔧 Modifications · Changed
+- 📚 Les 237 objets du catalogue sont affichés en permanence dans leur catégorie, plus besoin de les ajouter un par un · All 237 catalog items are always shown in their category, no need to add them one by one
+- 🔎 La recherche filtre la liste ; un objet introuvable peut être ajouté comme objet perso · Search filters the list; an item not found can be added as a custom item
+- ↺ Le bouton de fin de ligne efface tes données sur un objet du catalogue (✕ supprime un objet perso) · The end-of-row button clears your data for a catalog item (✕ deletes a custom item)
+
 ## 🏷️ v1.1.0 · 2026-11-11
 
 ### ✨ Nouveautés · Added
